@@ -1,13 +1,13 @@
-/* 👀 Great, you found this file */
+/* Great, you found this file */
 
-/* 📂 font imports */
+/* font imports */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* 📄 variable definitions */
+/* variable definitions */
 :root {
 	--tooltip: rgb(148, 148, 148);
 }
-/* 🔃 reset */
+/* reset */
 html, body {
 	height: 100%;
 	padding: 0;
@@ -24,7 +24,7 @@ input, button, textarea, select {
 a {
 	color: inherit;
 }
-/* 😎 styling */
+/* styling */
 header {
 	padding-top: 50px;
 	text-align: center;
@@ -61,4 +61,4 @@ header {
 	opacity: 0.5;
 	transition: opacity 0.2s;
 }
-/* 🎞️ animations */
+/* animations */
