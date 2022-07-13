@@ -1,0 +1,64 @@
+/* 👀 Great, you found this file */
+
+/* 📂 font imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* 📄 variable definitions */
+:root {
+	--tooltip: rgb(148, 148, 148);
+}
+/* 🔃 reset */
+html, body {
+	height: 100%;
+	padding: 0;
+	overflow-x: hidden;
+}
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+a {
+	color: inherit;
+}
+/* 😎 styling */
+header {
+	padding-top: 50px;
+	text-align: center;
+}
+#logo {
+	margin-bottom: 10px;
+	font-size: 42px;
+}
+#subtitle {
+	font-weight: 400;
+	font-size: 18px;
+}
+#info {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.tooltip {
+	background-color: var(--tooltip);
+	border-radius: 5px;
+	color: white;
+	padding: 7px 20px 7px 20px;
+	z-index: 999;
+	position: absolute;
+	right: 10px;
+	opacity: 0;
+	transition: opacity 0.4s;
+	transition-delay: 2s;
+	width: max-content;
+	max-width: 200px;
+	backdrop-filter: blur(100px);
+}
+.tooltip_activator:hover + .tooltip {
+	opacity: 0.5;
+	transition: opacity 0.2s;
+}
+/* 🎞️ animations */
